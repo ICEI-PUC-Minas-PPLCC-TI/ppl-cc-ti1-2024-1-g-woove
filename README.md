@@ -1,18 +1,19 @@
-# Nome do projeto
+# Woove
 
-Escreva um ou dois parágrafo resumindo o objetivo do seu projeto.
+O projeto Woove visa desenvolver um site dedicado a melhorar a segurança e a experiência de transporte para mulheres. Através de uma plataforma interativa, Woove permitirá que suas usuárias avaliem suas viagens, compartilhem experiências detalhadas e relatem incidentes de segurança em um ambiente seguro e anônimo. Com funcionalidades como fóruns de discussão e perfis personalizados, o site busca criar uma comunidade engajada onde usuárias podem encontrar apoio e informações úteis, além de contribuir para uma base de dados que ajudará a identificar tendências e áreas de risco. Simples e intuitivo, o site será acessível em diversos dispositivos e projetado para ser inclusivo, garantindo que mulheres de todas as partes possam se beneficiar e participar ativamente na melhoria da segurança no transporte público e privado.
 
 ## Alunos integrantes da equipe
-
-* Nome completo do aluno 1
-* Nome completo do aluno 2
-* Nome completo do aluno 3
-* Nome completo do aluno 4
+* Anna Elisa Barbosa Maciel 
+* Bruna Raíssa Palhares Meirelles 
+* Gustavo Pereira Rodrigues 
+* Lucas Grossi 
+* Mariana dos Santos Takahashi 
+* Pedro Henrique Pereira de Alexandria 
 
 ## Professores responsáveis
 
-* Nome completo do professor 1
-* Nome completo do professor 2
+* Gustavo Henrique Borges Martins
+* Wesley Dias Maciel
 
 ## Instruções de utilização
 
