@@ -2,4 +2,5 @@
 
 void main() {
     int c;
+    int a;
 }
