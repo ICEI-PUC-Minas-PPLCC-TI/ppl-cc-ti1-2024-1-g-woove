@@ -3,4 +3,18 @@
 void main() {
     int c;
     int a;
+    int a;
+    int a;
+    int a;
+    int a;
+    int a;
+    int a;
+    int a;
+    int a;
+    int a;
+    int a;
+    int a;
+    int a;
+    int a;
+    int a;
 }
