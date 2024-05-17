@@ -63,6 +63,7 @@ function lerContatos() {
         btnEditarEmail.style.display = "inline-block";
         btnEditarBiografia.style.display = "inline-block";
         //teste
+        //teste
     
         localStorage.setItem('perfil', JSON.stringify(perfilEditado));
     }
