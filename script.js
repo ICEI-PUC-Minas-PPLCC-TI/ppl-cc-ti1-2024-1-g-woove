@@ -65,6 +65,9 @@ function lerContatos() {
         //teste
         //teste
         //teste
+        //teste
+        //teste
+        //teste
 
     
         localStorage.setItem('perfil', JSON.stringify(perfilEditado));
