@@ -64,6 +64,8 @@ function lerContatos() {
         btnEditarBiografia.style.display = "inline-block";
         //teste
         //teste
+        //teste
+        //teste
     
         localStorage.setItem('perfil', JSON.stringify(perfilEditado));
     }
