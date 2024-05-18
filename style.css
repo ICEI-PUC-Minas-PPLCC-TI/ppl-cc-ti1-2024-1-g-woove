@@ -1,18 +1,99 @@
 .header{
 
-    border: 15px solid rgb(224, 156, 226); 
-}
-
-.icone-perfil{
-
+    background-color: #e1bee7; 
+    padding: 15px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
     
 }
 
-.perfil{
-
-    padding: 20px;
-    display: inline-block;
+.header .bi-person-circle {
+    font-size: 30px;
+    color: #000000;
 }
+
+header h1 {
+    font-size: 24px;
+    color: #333;
+    margin-top: 25px;
+    margin-bottom: 15px;
+}
+
+header hr {
+    border: none;
+    height: 1px;
+    background-color: #ccc;
+    margin: 10px 0;
+}
+
+#perfil {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    width: 300px;
+}
+
+.formato-perfil {
+    margin-bottom: 15px;
+}
+
+.formato-perfil label {
+    display: block; 
+    margin-bottom: 5px; 
+    font-weight: bold;
+    color: #333;
+}
+
+.formato-perfil input {
+    width: 100%; 
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+#btnEditarNome{
+    background: none;
+    border: none;
+    padding: 0;
+    margin-right: 5px;
+    cursor: pointer;
+}
+
+#btnEditarNome .bi{
+    font-size: 16px;
+    color: #4A148C;
+    padding-left: 60px;
+}
+
+#btnEditarEmail{
+    background: none;
+    border: none;
+    margin-right: 5px;
+    cursor: pointer;
+    padding-top: 20px;
+}
+
+#btnEditarEmail .bi{
+    font-size: 16px;
+    color: #4A148C;
+    padding-left: 60px;
+}
+
+#btnEditarBiografia{
+    background: none;
+    border: none;
+    margin-right: 5px;
+    cursor: pointer;
+    padding-top: 20px;
+}
+
+#btnEditarBiografia .bi{
+    font-size: 16px;
+    color: #4A148C;
+    padding-left: 60px;
+}
+
 
 .cartao-forma{
 

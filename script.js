@@ -7,6 +7,15 @@ const btnEditarNome = document.getElementById('btnEditarNome');
 const btnEditarEmail = document.getElementById('btnEditarEmail');
 const btnEditarBiografia = document.getElementById('btnEditarBiografia');
 
+
+const imageField = document.querySelector("#image-field");
+const imagePreview = document.querySelector("#image-preview");
+
+
+
+
+
+
 function lerContatos() {
     const perfil = JSON.parse(localStorage.getItem('perfil'));
     

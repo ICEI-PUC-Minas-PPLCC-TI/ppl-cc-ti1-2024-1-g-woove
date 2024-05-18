@@ -20,20 +20,25 @@
 <body>
     <div class="cadastro">
         <div class="perfil">
-            <label for="perfil-nome">Nome</label>
+          <div class = "formato-perfil">
+
+            <button id="btnEditarNome"><i class="bi bi-pencil"></i></button>
+            <label for="perfil-nome" style = "color: #b837cf; font-size: 20px">Nome</label>
             <input id="perfil-nome" type="text" placeholder="Digite seu nome" required disabled/>
 
-            <label for="perfil-email">Email</label>
+            <button id="btnEditarEmail"><i class="bi bi-pencil"></i></button>
+            <label for="perfil-email" style = "color: #b837cf; padding-top: 10px; font-size: 20px">Email</label>
             <input id="perfil-email" type="text" placeholder="Digite seu email" required disabled/>
 
-            <label for="perfil-biografia">Biografia</label>
+            <button id="btnEditarBiografia"><i class="bi bi-pencil"></i></button>
+            <label for="perfil-biografia" style = "color: #b837cf; padding-top: 10px; ">Biografia</label>
             <textarea id="perfil-biografia" placeholder="Digite sua biografia" required disabled></textarea>
-        </div>
+          </div>
         <div class="botoes">
             <button id="btnSalvar" style="display: none;">Salvar</button>
-            <button id="btnEditarNome"><i class="bi bi-pencil"></i></button>
-              <button id="btnEditarEmail"><i class="bi bi-pencil"></i></button>
-              <button id="btnEditarBiografia"><i class="bi bi-pencil"></i></button>
+            
+              
+              
         </div>
     </div>
 
