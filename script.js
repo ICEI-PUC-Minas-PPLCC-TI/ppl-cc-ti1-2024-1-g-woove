@@ -43,7 +43,7 @@ perfilFoto.addEventListener('change', function() {
       reader.addEventListener('load', function() {
         fotoPreview.src = reader.result;
         fotoPreview.style.display = 'block';
-        localStorage.setItem('foto', reader.result); // Armazena a foto localmente com a chave 'profilePhoto'
+        localStorage.setItem('foto', reader.result); 
       });
   
       reader.readAsDataURL(file);

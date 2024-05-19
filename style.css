@@ -26,6 +26,7 @@ header hr {
 }
 
 .perfil {
+    margin-top: 40px;
     background-color: #fff;
     padding: 20px;
     border-radius: 10px;
@@ -67,7 +68,9 @@ header hr {
     text-align: left;
     margin-top: 50px;
     flex-direction: column;
+    margin-left: 40px;
   }
+
 
 #foto-perfil{
     color: #b837cf; 
@@ -150,10 +153,10 @@ header hr {
 
 }
 
-.cartao-container {
+.cartoes {
     display: flex;
     flex-direction: column;
-    align-items: center;
+   align-items: normal;
 }
 
 .cartao {
