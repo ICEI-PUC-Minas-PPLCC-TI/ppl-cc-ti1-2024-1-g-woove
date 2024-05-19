@@ -21,81 +21,42 @@
     <div class="cadastro">
         <div class="perfil">
           <div class = "formato-perfil">
+            
+            <label for="perfil-nome" id = "perfil-label">Nome <button id="btnEditarNome"><i class="bi bi-pencil"></i></button></label>
+            <input id="perfil-nome" type="text" placeholder="Digite seu nome" required disabled style="width: 80%"/>
+            
+            <label for="perfil-email" id = "perfil-label">Email <button id="btnEditarEmail"><i class="bi bi-pencil"></i></button></label>
+            <input id="perfil-email" type="text" placeholder="Digite seu email" required disabled style="width: 80%"/>
 
-            <button id="btnEditarNome"><i class="bi bi-pencil"></i></button>
-            <label for="perfil-nome" style = "color: #b837cf; font-size: 20px">Nome</label>
-            <input id="perfil-nome" type="text" placeholder="Digite seu nome" required disabled/>
-
-            <button id="btnEditarEmail"><i class="bi bi-pencil"></i></button>
-            <label for="perfil-email" style = "color: #b837cf; padding-top: 10px; font-size: 20px">Email</label>
-            <input id="perfil-email" type="text" placeholder="Digite seu email" required disabled/>
-
-            <button id="btnEditarBiografia"><i class="bi bi-pencil"></i></button>
-            <label for="perfil-biografia" style = "color: #b837cf; padding-top: 10px; ">Biografia</label>
-            <textarea id="perfil-biografia" placeholder="Digite sua biografia" required disabled></textarea>
+            <label for="perfil-biografia" id = "perfil-label">Biografia <button id="btnEditarBiografia"><i class="bi bi-pencil"></i></button></label>
+            <textarea id="perfil-biografia" placeholder="Digite sua biografia" required disabled style="width: 80%"></textarea>
           </div>
         <div class="botoes">
             <button id="btnSalvar" style="display: none;">Salvar</button>
-            
-              
-              
+            </div>
         </div>
     </div>
 
+    <div class = "historico">
+    <h1>Histórico de atividades</h1>
+    <hr> </div>
+
     <div class = "cartoes">
-      <div class = "cartao1">
-      <div class="cartao-forma">
-        <div class="cartao-corpo"> 
-          <i class="bi bi-person-fill" style="width: 20px; height: 20px" ></i>
-          <div class = "cartao-header">
-          </div>
-          <div class = "cartao-texto" >
-            <a class = "cartao-link" href="http://127.0.0.1:5500/repositorio1.html" style="text-decoration: none;" target="_blank">
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores culpa ullam ratione veniam numquam dolor nostrum omnis, explicabo, minus fugiat maxime mollitia vitae! Recusandae a unde tempore? Modi, id totam!</p>
-          </a>
-           </div>
-           </div>
-
-           <div class = "cartao2">
-            <div class="cartao-forma">
-              <div class="cartao-corpo"> 
-                <i class="bi bi-person-fill" style="width: 20px; height: 20px" ></i>
-                <div class = "cartao-header"></div>
-                <div class = "cartao-texto" >
-                  <a class = "cartao-link" href="http://127.0.0.1:5500/repositorio1.html" style="text-decoration: none;" target="_blank">
-                  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores culpa ullam ratione veniam numquam dolor nostrum omnis, explicabo, minus fugiat maxime mollitia vitae! Recusandae a unde tempore? Modi, id totam!</p>
-                  </a>
-                </div>
-              </div>
-            </div>
-
-            <div class = "cartao3">
-              <div class="cartao-forma">
-                <div class="cartao-corpo"> 
-                  <i class="bi bi-person-fill" style="width: 20px; height: 20px" ></i>
-                  <div class = "cartao-header"></div>
-                  <div class = "cartao-texto" >
-                    <a class = "cartao-link" href="http://127.0.0.1:5500/repositorio1.html" style="text-decoration: none;" target="_blank">
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores culpa ullam ratione veniam numquam dolor nostrum omnis, explicabo, minus fugiat maxime mollitia vitae! Recusandae a unde tempore? Modi, id totam!</p>
-                    </a>
-                  </div>
-                </div>
-              </div>
-              
-              <div class = "cartao3">
-                <div class="cartao-forma">
-                  <div class="cartao-corpo"> 
-                    <i class="bi bi-person-fill" style="width: 20px; height: 20px" ></i>
-                    <div class = "cartao-header"></div>
-                    <div class = "cartao-texto" >
-                      <a class = "cartao-link" href="http://127.0.0.1:5500/repositorio1.html" style="text-decoration: none;" target="_blank">
-                      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores culpa ullam ratione veniam numquam dolor nostrum omnis, explicabo, minus fugiat maxime mollitia vitae! Recusandae a unde tempore? Modi, id totam!</p>
-                      </a>
-                    </div>
-                  </div>
-                </div>
-
-         </div>
+      <div class="card">
+        <h3>Título do Cartão 1</h3>
+        <hr>
+        <p>Conteúdo do cartão 1</p>
+    </div>
+    <div class="card">
+        <h3>Título do Cartão 2</h3>
+        <hr>
+        <p>Conteúdo do cartão 2</p>
+    </div>
+    <div class="card">
+        <h3>Título do Cartão 3</h3>
+        <hr>
+        <p>Conteúdo do cartão 3</p>
+    </div>
        </div>
 
     <script src="script.js"></script>

@@ -25,12 +25,12 @@ header hr {
     margin: 10px 0;
 }
 
-#perfil {
+.perfil {
     background-color: #fff;
     padding: 20px;
     border-radius: 10px;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
-    width: 300px;
+    width: 400px;
 }
 
 .formato-perfil {
@@ -50,6 +50,13 @@ header hr {
     border: 1px solid #ccc;
     border-radius: 5px;
     font-size: 16px;
+}
+
+#perfil-label{
+
+    color: #b837cf; 
+    font-size: 20px; 
+    padding-bottom: 10px
 }
 
 #btnEditarNome{
@@ -94,27 +101,54 @@ header hr {
     padding-left: 60px;
 }
 
-
-.cartao-forma{
-
-    max-width: 20rem; 
-    margin: 20px;
+.historico h1{
+    font-size: 27px;
+    color: #333;
+    margin-top: 40px;
+    margin-bottom: 15px;
 }
 
-.cartao-corpo{
+.historico hr{
+    border: none;
+    height: 1px;
+    background-color: #ccc;
+    margin: 10px 0;
 
-    background-color: white; 
-    border: 2px solid grey; 
-    height: 160px
 }
 
-.cartao-texto{
-
-    margin: 5px;
-    
+.card-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
-.cartao-header{
-    border: 10px solid gainsboro; 
-    background-color: gainsboro;
+.card {
+    background-color:  #e1bee7;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    max-width: 300px;
+    text-align: center;
+    transition: transform 0.3s, box-shadow 0.3s;
+    margin-bottom: 20px;
+}
+
+.card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+.card h3 {
+    margin-top: 0;
+}
+
+.card p {
+    color: #666;
+}
+
+.card hr {
+    border: 0;
+    height: 1px;
+    background: #ddd;
+    margin: 20px 0;
 }
