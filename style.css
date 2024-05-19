@@ -45,16 +45,12 @@ header hr {
   
   .foto, .perfil {
     flex: 1;
-  }
-
-
-  
+  }  
 
 .formato-perfil {
     margin-bottom: 15px;
     display: flex;
     flex-direction: column;
-    align-items: center;
 }
 
 .formato-perfil label {
@@ -76,7 +72,7 @@ header hr {
     text-align: left;
     margin-top: 50px;
     flex-direction: column;
-    margin-left: 40px;
+    margin-left: 150px;
   }
 
 
@@ -163,8 +159,9 @@ header hr {
 
 .cartoes {
     display: flex;
-    flex-direction: column;
-   align-items: normal;
+    gap: 20px;
+    margin-top: 50px;
+    justify-content: center;
 }
 
 .cartao {
@@ -196,4 +193,19 @@ header hr {
     height: 1px;
     background: #ddd;
     margin: 20px 0;
+}
+
+@media screen and (max-width: 1020px) 
+{
+    .cadastro{
+        display: flex;
+        flex-direction: column;
+
+    }
+
+    .cartoes {
+        display: flex;
+        flex-direction: column;
+       align-items: normal;
+    }
 }
