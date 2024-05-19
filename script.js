@@ -5,6 +5,8 @@ const btnSalvar = document.getElementById('btnSalvar');
 const btnEditarNome = document.getElementById('btnEditarNome');
 const btnEditarEmail = document.getElementById('btnEditarEmail');
 const btnEditarBiografia = document.getElementById('btnEditarBiografia');
+const perfilFoto = document.getElementById('perfil-foto');
+const fotoPreview = document.getElementById('foto-preview');
 
 function lerContatos() {
     const perfil = JSON.parse(localStorage.getItem('perfil'));
@@ -25,6 +27,28 @@ function lerContatos() {
         .catch(error => console.error('Erro ao ler o arquivo JSON:', error));
     }
 }
+
+const fotoArmazenada = localStorage.getItem('foto');
+if (fotoArmazenada) {
+  fotoPreview.src = fotoArmazenada;
+  fotoPreview.style.display = 'block';
+}
+
+perfilFoto.addEventListener('change', function() {
+    const file = this.files[0];
+  
+    if (file) {
+      const reader = new FileReader();
+  
+      reader.addEventListener('load', function() {
+        fotoPreview.src = reader.result;
+        fotoPreview.style.display = 'block';
+        localStorage.setItem('foto', reader.result); // Armazena a foto localmente com a chave 'profilePhoto'
+      });
+  
+      reader.readAsDataURL(file);
+    }
+  });
 
 function editarNome() {
     nome.disabled = false;

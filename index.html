@@ -19,9 +19,14 @@
 
 <body>
     <div class="cadastro">
+
+      <div class = "foto">
+        <label for="perfil-foto" id = "foto-perfil">Foto de Perfil</label>
+        <img id="foto-preview" class="foto-perfil" src="" alt="" class="rounded-circle">
+            <input type="file" id="perfil-foto" accept="image/*">
+        </div>
         <div class="perfil">
           <div class = "formato-perfil">
-            
             <label for="perfil-nome" id = "perfil-label">Nome <button id="btnEditarNome"><i class="bi bi-pencil"></i></button></label>
             <input id="perfil-nome" type="text" placeholder="Digite seu nome" required disabled style="width: 80%"/>
             
@@ -42,18 +47,18 @@
     <hr> </div>
 
     <div class = "cartoes">
-      <div class="card">
-        <h3>Publicação</h3>
+      <div class="cartao">
+        <h3><i class="bi bi-person"></i>Publicação</h3>
         <hr>
         <p></p>
     </div>
-    <div class="card">
-        <h3>Denúncia</h3>
+    <div class="cartao">
+        <h3><i class="bi bi-exclamation-triangle"></i></i>Denúncia</h3>
         <hr>
         <p></p>
     </div>
-    <div class="card">
-        <h3>Atividade</h3>
+    <div class="cartao">
+        <h3><i class="bi bi-geo-alt"></i>Atividade</h3>
         <hr>
         <p></p>
     </div>
