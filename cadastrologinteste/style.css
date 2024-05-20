@@ -1,0 +1,68 @@
+#caixaCadastro, #caixaLogin {
+    background-color: #3A3A3A;
+    margin: auto;
+    color: white;
+    border-radius: 10px;
+}
+
+.containerPrincipal {
+    background-color: #1E1E1E;
+}
+
+.partePosConta, .parteNaoPosConta {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+}
+
+.parteCadas, .parteLogin {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#btnIrPGlogin {
+    background-color: #8465E0;
+    padding: 0px 15px;
+    border-radius: 10px;
+    border: none;
+    color: white;
+    font-weight: bold;
+}
+
+#btnIrPGcadas {
+    background-color: #8465E0;
+    padding: 0px 15px;
+    border-radius: 10px;
+    border: none;
+    color: white;
+    font-weight: bold;
+}
+
+.btnPGLog, .btnPGCad {
+    color: inherit;
+    text-decoration: none;
+}
+
+#btnCadastrar, #btnLogin {
+    background-color: #8465E0;
+    padding: 0px 15px;
+    border-radius: 10px;
+    border: none;
+    color: white;
+    font-weight: bold;
+}
+
+.campos {
+    border-radius: 10px;
+    border: none;
+    padding: 5px;
+}
+
+label {
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 25px;
+}
