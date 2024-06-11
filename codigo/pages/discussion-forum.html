@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Woove - Fórum de Discussão</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="/codigo/assets/css/stylePrincipal.css">
+    <style>
+        body {
+            background-color: #f8f9fa;
+        }
+        .navbar {
+            background-color: #e83e8c;
+        }
+        .navbar-brand {
+            color: white;
+        }
+        .navbar-brand:hover {
+            color: #f8f9fa;
+        }
+        .forum-container {
+            margin-top: 20px;
+        }
+        .forum-header {
+            color: #e83e8c;
+        }
+        .post-header, .comment-header {
+            color: #6c757d;
+        }
+    </style>
+</head>
+
+    <header>
+        <div class ="header">
+        <!-- barra de navegação começa aqui -->
+        <nav class="nav d-flex justify-content-between flex-wrap m-3">
+            <a class="nav-link active" style="text-decoration: none; color: white; background-color: #7C4690; border-radius: 5px;" href="/codigo/index.html"><b>Woove</b></a>
+            <div class="d-flex flex-column flex-sm-row">
+              <a class="nav-link" style="text-decoration: none; color: white;" href="/codigo/pages/indexPerfil.html"><i class="bi bi-person-circle"></i><b>Perfil</b></a>
+                <a class="nav-link" style="text-decoration: none; color: white;" href="/codigo/pages/PagCadastro.html"><i class="bi bi-pencil-square"></i><b>Cadastro</b></a>
+              <a class="nav-link" style="text-decoration: none; color: white;" href="/codigo/pages/discussion-forum.html"><i class="bi bi-chat-left-text-fill"></i><b>Fórum</b></a>
+              <a class="nav-link" style="text-decoration: none; color: white;" href="/codigo/pages/sobreNos.html"><i class="bi bi-info-circle"></i><b>Sobre nós</b></a>
+            </div>
+        </nav>
+        </div>
+        </header>
+    
+<body>
+
+<div class="container forum-container">
+    <div class="row">
+        <div class="col-md-8 offset-md-2">
+            <h2 class="forum-header">Fórum de Discussão</h2>
+            <div class="card mb-3">
+                <div class="card-header">Criar Novo Tópico</div>
+                <div class="card-body">
+                    <form id="newTopicForm">
+                        <div class="form-group">
+                            <label for="topicTitle">Título</label>
+                            <input type="text" class="form-control" id="topicTitle" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="topicContent">Conteúdo</label>
+                            <textarea class="form-control" id="topicContent" rows="3" required></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary">Publicar</button>
+                    </form>
+                </div>
+            </div>
+            <div class="list-group" id="topicsList">
+                <!-- Tópicos irão aparecer aqui -->
+            </div>
+        </div>
+    </div>
+</div>
+
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+<script src="https://www.gstatic.com/firebasejs/8.6.8/firebase-app.js"></script>
+<script src="https://www.gstatic.com/firebasejs/8.6.8/firebase-auth.js"></script>
+<script src="https://www.gstatic.com/firebasejs/8.6.8/firebase-firestore.js"></script>
+<script>
+    // Configuração do Firebase
+    var firebaseConfig = {
+        apiKey: "SUA_API_KEY",
+        authDomain: "SEU_DOMINIO.firebaseapp.com",
+        projectId: "SEU_PROJETO_ID",
+        storageBucket: "SEU_BUCKET.appspot.com",
+        messagingSenderId: "SEU_SENDER_ID",
+        appId: "SUA_APP_ID"
+    };
+    firebase.initializeApp(firebaseConfig);
+    var db = firebase.firestore();
+
+    // Formulário de novo tópico
+    document.getElementById('newTopicForm').addEventListener('submit', function(e) {
+        e.preventDefault();
+        var title = document.getElementById('topicTitle').value;
+        var content = document.getElementById('topicContent').value;
+
+        db.collection("topics").add({
+            title: title,
+            content: content,
+            createdAt: firebase.firestore.FieldValue.serverTimestamp()
+        }).then(function() {
+            alert("Tópico criado com sucesso!");
+            document.getElementById('newTopicForm').reset();
+            loadTopics();
+        }).catch(function(error) {
+            console.error("Erro ao adicionar tópico: ", error);
+        });
+    });
+
+    // Carregar tópicos
+    function loadTopics() {
+        db.collection("topics").orderBy("createdAt", "desc").get().then(function(querySnapshot) {
+            var topicsList = document.getElementById('topicsList');
+            topicsList.innerHTML = "";
+            querySnapshot.forEach(function(doc) {
+                var topic = doc.data();
+                var listItem = document.createElement('a');
+                listItem.className = "list-group-item list-group-item-action";
+                listItem.innerHTML = `<h5 class="post-header">${topic.title}</h5><p>${topic.content}</p>`;
+                topicsList.appendChild(listItem);
+            });
+        });
+    }
+
+    // Inicializar a lista de tópicos
+    loadTopics();
+</script>
+</body>
+</html>
