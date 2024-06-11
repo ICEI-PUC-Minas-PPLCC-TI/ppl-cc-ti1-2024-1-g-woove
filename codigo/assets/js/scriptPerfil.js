@@ -76,6 +76,10 @@ if (fotoArmazenada) {
   fotoPreview.src = fotoArmazenada;
   fotoPreview.style.display = 'block';
 }
+else {
+    fotoPreview.src = '/codigo/assets/img/perfilreserva.webp';
+    fotoPreview.style.display = 'block';
+}
 
 perfilFoto.addEventListener('change', function() {
     const file = this.files[0];
