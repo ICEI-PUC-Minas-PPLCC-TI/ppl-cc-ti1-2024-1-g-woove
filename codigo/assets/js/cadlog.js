@@ -55,8 +55,8 @@ function incluirCadastro () {
 
 }
 
-function salvaDados (x, dados) {
-    localStorage.setItem (x, JSON.stringify (dados)); //vai pegar o q tiver no objDados, transformar em string json, e colocar no localStorage usando o "setItem" especificamente em '...'
+function salvaDados (dados) {
+    localStorage.setItem ('wooveTeste', JSON.stringify (dados)); //vai pegar o q tiver no objDados, transformar em string json, e colocar no localStorage usando o "setItem" especificamente em '...'
 }
 
 function imprimeDados () {
