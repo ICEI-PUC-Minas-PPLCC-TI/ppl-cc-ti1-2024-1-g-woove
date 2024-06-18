@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Denúncias/Avaliações Passadas</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 20px;
+            background-color: #f9f9f9;
+        }
+
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: #fff;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        .header {
+            display: flex;
+            align-items: center;
+            margin-bottom: 20px;
+        }
+
+        .header img {
+            width: 24px;
+            height: 24px;
+            margin-right: 10px;
+            cursor: pointer;
+        }
+
+        .header h1 {
+            font-size: 20px;
+            margin: 0;
+            color: #e83e8c; /* Mudança da cor do texto */
+        }
+
+        .profile-pic {
+            margin-left: auto;
+            width: 40px;
+            height: 40px;
+            border-radius: 50%;
+            background-color: #ccc;
+        }
+
+        .report-card {
+            border: 2px solid #e83e8c; /* Mudança da cor e espessura da borda */
+            border-radius: 8px;
+            padding: 15px;
+            margin-bottom: 20px;
+            background-color: #f1f1f1;
+        }
+
+        .report-card p {
+            margin: 5px 0;
+        }
+
+        .report-card .arrow {
+            display: flex;
+            align-items: center;
+            justify-content: flex-start;
+            font-size: 20px;
+            margin: 10px 0;
+            position: relative;
+            left: 50px;
+        }
+
+        .report-card .rating {
+            display: flex;
+            align-items: center;
+        }
+
+        .report-card .rating span {
+            font-size: 20px;
+            color: #FFD700;
+        }
+
+        .report-card .rating span.grey {
+            color: #ccc;
+        }
+
+        .comment-box {
+            background-color: #eee;
+            padding: 10px;
+            border-radius: 4px;
+            margin-top: 10px;
+        }
+
+        hr {
+            border: 0;
+            border-top: 2px solid #e83e8c; /* Mudança da cor e espessura da linha */
+            margin: 10px 0;
+        }
+
+        strong {
+            color: #e83e8c; /* Mudança da cor do texto em negrito */
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <img src="image.png" alt="Voltar">
+            <h1>Denúncias/Avaliações Passadas</h1>
+            <div class="profile-pic"></div>
+        </div>
+
+        <div class="report-card">
+            <p><strong>[Ponto inicial]</strong> Lorem ipsum <span style="float: right;">DD/MM/AA HH:MM</span></p>
+            <div class="arrow">⬇️</div>
+            <p><strong>[Destino da viagem]</strong> Lorem ipsum</p>
+            <hr>
+            <p><strong>Modal de transporte:</strong> Lorem ipsum <span class="rating"><span>⭐️⭐️⭐️⭐️⭐️</span></span></p>
+            <p><strong>Comentário:</strong></p>
+            <div class="comment-box">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas viverra pretium purus in commodo. Fusce dapibus ligula nec commodo condimentum.
+            </div>
+        </div>
+
+        <div class="report-card">
+            <p><strong>[Ponto inicial]</strong> Lorem ipsum <span style="float: right;">DD/MM/AA HH:MM</span></p>
+            <div class="arrow">⬇️</div>
+            <p><strong>[Destino da viagem]</strong> Lorem ipsum</p>
+            <hr>
+            <p><strong>Modal de transporte:</strong> Lorem ipsum <span class="rating"><span>⭐️⭐️⭐️</span><span class="grey">⭐️⭐️</span></span></p>
+            <p><strong>Comentário:</strong></p>
+            <div class="comment-box">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas viverra pretium purus in commodo.
+            </div>
+        </div>
+
+        <div class="report-card">
+            <p><strong>[Ponto inicial]</strong> Lorem ipsum <span style="float: right;">DD/MM/AA HH:MM</span></p>
+            <div class="arrow">⬇️</div>
+            <p><strong>[Destino da viagem]</strong> Lorem ipsum</p>
+            <hr>
+            <p><strong>Modal de transporte:</strong> Lorem ipsum <span class="rating"><span>⭐️⭐️⭐️⭐️⭐️</span></span></p>
+            <p><strong>Comentário:</strong></p>
+            <div class="comment-box">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas viverra pretium purus in commodo. Fusce dapibus ligula nec commodo condimentum. Proin ante tortor, maximus et porta sit amet, fermentum et tortor.
+            </div>
+        </div>
+    </div>
+</body>
+</html>

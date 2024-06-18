@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Denúncias/Avaliações Passadas</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f9f9f9;
+            height: 100vh; /* Garantir que a altura do corpo seja 100% da altura da visualização */
+        }
+
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: #fff;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            text-align: center; /* Centralizar texto */
+            min-height: 100vh; /* Garantir que o contêiner ocupe toda a altura da visualização */
+            box-sizing: border-box; /* Incluir padding e borda na altura total */
+            display: flex;
+            flex-direction: column;
+        }
+
+        .header {
+            display: flex;
+            align-items: center;
+            margin-bottom: 20px;
+        }
+
+        .header img {
+            width: 24px;
+            height: 24px;
+            margin-right: 10px;
+            cursor: pointer;
+        }
+
+        .header h1 {
+            font-size: 20px;
+            margin: 0;
+            color: #e83e8c; /* Mudança da cor do texto para rosa */
+        }
+
+        .profile-pic {
+            margin-left: auto;
+            width: 40px;
+            height: 40px;
+            border-radius: 50%;
+            background-color: #ccc;
+        }
+
+        .message {
+            margin-top: 50px;
+            font-size: 18px;
+            color: #333;
+            flex-grow: 1; /* Fazer a mensagem crescer para ocupar o espaço restante */
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <img src="image.png" alt="Voltar">
+            <h1>Denúncias/Avaliações Passadas</h1>
+            <div class="profile-pic"></div>
+        </div>
+
+        <div class="message">
+            Ops! Parece que você ainda não fez nenhuma avaliação ou denúncia.
+        </div>
+    </div>
+</body>
+</html>
