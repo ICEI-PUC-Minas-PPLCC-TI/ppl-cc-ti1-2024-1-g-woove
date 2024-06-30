@@ -1,0 +1,50 @@
+[
+    {
+        "devId" : 1,
+        "nome":"Anna Elisa",
+        "bio":null,
+        "photoPath":"./assets/images/sobreNosImages/noPhoto.png",
+        "socialMedia":[],
+        "funcaoTi":"Project Owner"
+    },
+    {
+        "devId":2,
+        "nome":"Gustavo Henrique",
+        "bio":null,
+        "photoPath":"./assets/images/sobreNosImages/noPhoto.png",
+        "socialMedia":[],
+        "funcaoTi":"Desenvolvedor"
+    },
+    {
+        "devId" : 3,
+        "nome":"Lucas Grossi",
+        "bio":null,
+        "photoPath":"./assets/images/sobreNosImages/noPhoto.png",
+        "socialMedia":[],
+        "funcaoTi":"Desenvolvedor"
+    },
+    {
+        "devId" : 4,
+        "nome":"Lucas Reis",
+        "bio":" 👋 Olá! Eu sou Lucas, um desenvolvedor de software apaixonado por tecnologia e inovação. ",
+        "photoPath":"./assets/images/sobreNosImages/noPhoto.png",
+        "socialMedia":[],
+        "funcaoTi":"Desenvolvedor"
+    },
+    {
+        "devId" : 5,
+        "nome":"Mariana Takahashi",
+        "bio":null,
+        "photoPath":"./assets/images/sobreNosImages/noPhoto.png",
+        "socialMedia":[],
+        "funcaoTi":"Desenvolvedor"
+    },
+    {
+        "devId" : 6,
+        "nome":"Pedro Alexandria",
+        "bio":null,
+        "photoPath":"./assets/images/sobreNosImages/noPhoto.png",
+        "socialMedia":[],
+        "funcaoTi":"Scrum Master"
+    }
+]
