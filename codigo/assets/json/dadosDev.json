@@ -9,17 +9,17 @@
     },
     {
         "devId":2,
-        "nome":"Gustavo Henrique",
+        "nome":"Pedro Alexandria",
         "bio":null,
-        "photoPath":"./assets/images/sobreNosImages/noPhoto.png",
+        "photoPath":"./assets/images/sobreNosImages/Alexandria.png",
         "socialMedia":[],
-        "funcaoTi":"Desenvolvedor"
+        "funcaoTi":"Scrum Master"
     },
     {
         "devId" : 3,
-        "nome":"Lucas Grossi",
+        "nome":"Gustavo Henrique",
         "bio":null,
-        "photoPath":"./assets/images/sobreNosImages/noPhoto.png",
+        "photoPath":"./assets/images/sobreNosImages/Gustavo.png",
         "socialMedia":[],
         "funcaoTi":"Desenvolvedor"
     },
@@ -27,24 +27,26 @@
         "devId" : 4,
         "nome":"Lucas Reis",
         "bio":" 👋 Olá! Eu sou Lucas, um desenvolvedor de software apaixonado por tecnologia e inovação. ",
-        "photoPath":"./assets/images/sobreNosImages/noPhoto.png",
+        "photoPath":"./assets/images/sobreNosImages/lucasReisPhoto.png",
         "socialMedia":[],
         "funcaoTi":"Desenvolvedor"
     },
     {
         "devId" : 5,
-        "nome":"Mariana Takahashi",
+        "nome":"Lucas Grossi",
         "bio":null,
-        "photoPath":"./assets/images/sobreNosImages/noPhoto.png",
+        "photoPath":"./assets/images/sobreNosImages/lucasGrossi.jpeg",
         "socialMedia":[],
         "funcaoTi":"Desenvolvedor"
     },
     {
         "devId" : 6,
-        "nome":"Pedro Alexandria",
+        "nome":"Mariana Takahashi",
         "bio":null,
-        "photoPath":"./assets/images/sobreNosImages/noPhoto.png",
+        "photoPath":"./assets/images/sobreNosImages/marianaTakahashi.jpeg",
         "socialMedia":[],
-        "funcaoTi":"Scrum Master"
+        "funcaoTi":"Desenvolvedor"
     }
 ]
+
+
