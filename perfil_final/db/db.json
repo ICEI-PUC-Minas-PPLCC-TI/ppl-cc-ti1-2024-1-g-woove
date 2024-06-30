@@ -1,0 +1,18 @@
+{
+  "usuarios": [
+    {
+      "id": "28d6c716-a704-40e1-8b2d-7368daeddff5",
+      "nome": "testeJson",
+      "email": "jsontestemudanca@gmail.com",
+      "senha": "19876",
+      "biografia": "aaa ola"
+    },
+    {
+      "id": "46018ee5-0616-4c00-8e34-2367436b52c4",
+      "nome": "Mauro Lopes",
+      "email": "mLopes@gmail.com",
+      "senha": "123yuiop",
+      "biografia": "sou muaro lopes"
+    }
+  ]
+}

@@ -1,0 +1,14 @@
+.header {
+    background-color: #e83e8c;
+    padding: 10px 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+#logcad {
+    background-color: #e83e8c;
+}
+
+.nav-link i 
+{
+    margin-right: 8px;
+}
