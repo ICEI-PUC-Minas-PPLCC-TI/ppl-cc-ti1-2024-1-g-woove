@@ -4,15 +4,23 @@
         "nome":"Anna Elisa",
         "bio":null,
         "photoPath":"./assets/images/sobreNosImages/noPhoto.png",
-        "socialMedia":[],
+        "socialMedia":{
+            "gitHub":"https://github.com/AnnaaElisa",
+            "instagram":"#",
+            "twitter":"#"
+        },
         "funcaoTi":"Project Owner"
     },
     {
         "devId":2,
         "nome":"Pedro Alexandria",
-        "bio":null,
+        "bio":"Computer Science student who finds the world of programming amazing. And that's why he's always willing to listen, understand and study something new!",
         "photoPath":"./assets/images/sobreNosImages/Alexandria.png",
-        "socialMedia":[],
+        "socialMedia":{
+            "gitHub":"https://github.com/AlexandriaPedro",
+            "instagram":"#",
+            "twitter":"#"
+        },
         "funcaoTi":"Scrum Master"
     },
     {
@@ -20,7 +28,11 @@
         "nome":"Gustavo Henrique",
         "bio":null,
         "photoPath":"./assets/images/sobreNosImages/Gustavo.png",
-        "socialMedia":[],
+        "socialMedia":{
+            "gitHub":"https://github.com/GustavoPR35",
+            "instagram":"#",
+            "twitter":"#"
+        },
         "funcaoTi":"Desenvolvedor"
     },
     {
@@ -28,7 +40,11 @@
         "nome":"Lucas Reis",
         "bio":" 👋 Olá! Eu sou Lucas, um desenvolvedor de software apaixonado por tecnologia e inovação. ",
         "photoPath":"./assets/images/sobreNosImages/lucasReisPhoto.png",
-        "socialMedia":[],
+        "socialMedia":{
+            "gitHub":"https://github.com/AnnaaElisa",
+            "instagram":"#",
+            "twitter":"#"
+        },
         "funcaoTi":"Desenvolvedor"
     },
     {
@@ -36,7 +52,11 @@
         "nome":"Lucas Grossi",
         "bio":null,
         "photoPath":"./assets/images/sobreNosImages/lucasGrossi.jpeg",
-        "socialMedia":[],
+        "socialMedia":{
+            "gitHub":"https://github.com/lucasgrossi2",
+            "instagram":"https://instagram.com/__lucass.grossi",
+            "twitter":"#"
+        },
         "funcaoTi":"Desenvolvedor"
     },
     {
@@ -44,7 +64,11 @@
         "nome":"Mariana Takahashi",
         "bio":null,
         "photoPath":"./assets/images/sobreNosImages/marianaTakahashi.jpeg",
-        "socialMedia":[],
+        "socialMedia":{
+            "gitHub":"#",
+            "instagram":"#",
+            "twitter":"#"
+        },
         "funcaoTi":"Desenvolvedor"
     }
 ]

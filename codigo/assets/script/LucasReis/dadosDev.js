@@ -1,6 +1,6 @@
 function loadPage(){
 
-fetch('./assets/json/dadosDev.json')
+fetch('./assets/json/LucasReis/dadosDev.json')
     .then(response => response.json())
     .then(dadosDev => {
         let devsHtml = "", devsHtml2 = "";
@@ -11,7 +11,7 @@ fetch('./assets/json/dadosDev.json')
             devsHtml += `<div class="col text-center">
             <div class="justify-content-center">
               <figure>
-                <a href="devPage.html" class="text-decoration-none text-black">
+                <a href="devPage.html?type=${dadosDev[i].devId}" class="text-decoration-none text-black">
                 <img src="${dadosDev[i].photoPath}" alt="foto ${dadosDev[i].nome}" class="w-25 rounded-circle">
                 <figcaption class="fs-6">${dadosDev[i].nome} <br> ${dadosDev[i].funcaoTi}</figcaption>
                 </a>
@@ -27,7 +27,7 @@ fetch('./assets/json/dadosDev.json')
               devsHtml2 += `<div class="col text-center">
               <div class="justify-content-center">
                 <figure>
-                  <a href="devPage.html" class="text-decoration-none text-black">
+                  <a href="devPage.html?type=${dadosDev[i].devId}" class="text-decoration-none text-black">
                   <img src="${dadosDev[i].photoPath}" alt="foto ${dadosDev[i].nome}" class="w-25 rounded-circle">
                   <figcaption class="fs-6">${dadosDev[i].nome} <br> ${dadosDev[i].funcaoTi}</figcaption>
                   </a>
