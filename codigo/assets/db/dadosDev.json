@@ -1,0 +1,76 @@
+[
+    {
+        "devId" : 1,
+        "nome":"Anna Elisa",
+        "bio":null,
+        "photoPath":"/codigo/assets/images/sobreNosImages/noPhoto.png",
+        "socialMedia":{
+            "gitHub":"https://github.com/AnnaaElisa",
+            "instagram":"#",
+            "twitter":"#"
+        },
+        "funcaoTi":"Project Owner"
+    },
+    {
+        "devId":2,
+        "nome":"Pedro Alexandria",
+        "bio":"Computer Science student who finds the world of programming amazing. And that's why he's always willing to listen, understand and study something new!",
+        "photoPath":"/codigo/assets/images/sobreNosImages/Alexandria.png",
+        "socialMedia":{
+            "gitHub":"https://github.com/AlexandriaPedro",
+            "instagram":"#",
+            "twitter":"#"
+        },
+        "funcaoTi":"Scrum Master"
+    },
+    {
+        "devId" : 3,
+        "nome":"Gustavo Pereira",
+        "bio":null,
+        "photoPath":"/codigo/assets/images/sobreNosImages/Gustavo.png",
+        "socialMedia":{
+            "gitHub":"https://github.com/GustavoPR35",
+            "instagram":"#",
+            "twitter":"#"
+        },
+        "funcaoTi":"Desenvolvedor"
+    },
+    {
+        "devId" : 4,
+        "nome":"Lucas Reis",
+        "bio":" 👋 Olá! Eu sou Lucas, um desenvolvedor de software apaixonado por tecnologia e inovação. ",
+        "photoPath":"/codigo/assets/images/sobreNosImages/lucasReisPhoto.png",
+        "socialMedia":{
+            "gitHub":"https://github.com/LucasReis26",
+            "instagram":"https://www.instagram.com/lucasreis26_",
+            "twitter":"https://www.x.com/LucasReis26_"
+        },
+        "funcaoTi":"Desenvolvedor"
+    },
+    {
+        "devId" : 5,
+        "nome":"Lucas Grossi",
+        "bio":null,
+        "photoPath":"/codigo/assets/images/sobreNosImages/lucasGrossi.jpeg",
+        "socialMedia":{
+            "gitHub":"https://github.com/lucasgrossi2",
+            "instagram":"https://instagram.com/__lucass.grossi",
+            "twitter":"#"
+        },
+        "funcaoTi":"Desenvolvedor"
+    },
+    {
+        "devId" : 6,
+        "nome":"Mariana Takahashi",
+        "bio":null,
+        "photoPath":"/codigo/assets/images/sobreNosImages/marianaTakahashi.jpeg",
+        "socialMedia":{
+            "gitHub":"#",
+            "instagram":"#",
+            "twitter":"#"
+        },
+        "funcaoTi":"Desenvolvedor"
+    }
+]
+
+

@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Woove - Sobre Nós</title>
+    <link rel="stylesheet" href="/codigo/assets/css/styleLogCad.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="/codigo/assets/css/stylePrincipal.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+    </style>
+    <script src="https://kit.fontawesome.com/25359709ac.js" crossorigin="anonymous"></script>
+    <style>
+      .star-rating {
+        font-size: 0;
+      }
+      .star-rating__wrap {
+        display: inline-block;
+        font-size: 1rem;
+      }
+      .star-rating__wrap:after {
+        content: "";
+        display: table;
+        clear: both;
+      }
+      .star-rating__ico {
+        float: right;
+        padding-left: 2px;
+        cursor: pointer;
+        color: #FFB300;
+      }
+      .star-rating__ico:last-child {
+        padding-left: 0;
+      }
+      .star-rating__input {
+        display: none;
+      }
+      .star-rating__ico:hover:before,
+      .star-rating__ico:hover ~ .star-rating__ico:before,
+      .star-rating__input:checked ~ .star-rating__ico:before
+      {
+        content: "\f005";
+      }
+      </style>
+</head>
+<header>
+  <div class="header">
+    <!-- barra de navegação começa aqui -->
+    <nav class="nav d-flex flex-column justify-content-between flex-sm-row m-3">
+            <a class="nav-link active text-center mb-2 mb-sm-0 mr-sm-3" style="text-decoration: none; color: white; background-color: #7C4690; border-radius: 5px; height: 100%;" href="/codigo/pages/index.html"><b>Woove</b></a>
+        <div class="d-flex flex-column flex-sm-row">
+            <a class="nav-link mb-2 mb-sm-0 mr-sm-3" style="text-decoration: none; color: white;" href="/codigo/pages/indexPerfil.html"><i class="bi bi-person-circle"></i><b>Perfil</b></a>  
+            <a class="nav-link mb-2 mb-sm-0 mr-sm-3" style="text-decoration: none; color: white;" href="/codigo/pages/PagCadastro.html"><i class="bi bi-pencil-square"></i><b>Cadastro</b></a>
+            <a class="nav-link mb-2 mb-sm-0 mr-sm-3" style="text-decoration: none; color: white;" href="/codigo/pages/index.html"><i class="bi bi-chat-left-text-fill"></i><b>Fórum</b></a>
+            <a class="nav-link mb-2 mb-sm-0 mr-sm-3" style="text-decoration: none; color: white;" href="/codigo/pages/Denuncias.html"><i class="fa-solid fa-triangle-exclamation"></i><b>Denúncias</b></a>
+            <a class="nav-link mb-2 mb-sm-0" style="text-decoration: none; color: white;" href="/codigo/pages/sobreNos.html"><i class="bi bi-info-circle"></i><b>Sobre nós</b></a>
+            
+        </div>
+    </nav>
+</div>
+</header>
+
+<body>
+    <div class="mt-3 ms-3">
+        <h1 class="fs-2 text-center" style="color: #e83e8c;">Sobre nós</h1>
+        <p class="text-break pt-3 pe-3 fs-5">
+          O projeto Woove visa desenvolver um site dedicado a melhorar a segurança e a experiência de transporte para mulheres. Através de uma plataforma interativa, Woove permitirá que suas usuárias avaliem suas viagens, compartilhem experiências detalhadas e relatem incidentes de segurança em um ambiente seguro e anônimo. Com funcionalidades como fóruns de discussão e perfis personalizados, o site busca criar uma comunidade engajada onde usuárias podem encontrar apoio e informações úteis, além de contribuir para uma base de dados que ajudará a identificar tendências e áreas de risco. Simples e intuitivo, o site será acessível em diversos dispositivos e projetado para ser inclusivo, garantindo que mulheres de todas as partes possam se beneficiar e participar ativamente na melhoria da segurança no transporte público e privado.
+        </p>
+    </div>
+
+    <div class="mt-3">
+      <h1 class="fs-2 text-center wooveTitles" style="color: #e83e8c;">Equipe Woove!</h1>
+      <div id="photos" class="container-fluid">
+        <div id="firstRow" class="row align-content-center mt-5">
+        </div> 
+        <div id="middle">
+        
+        </div>
+          
+        </div>
+      </div>
+    </div>
+
+    <div class="mt-3">
+        <h1 class="fs-2 text-center" style="color: #e83e8c;">Avalie a Woove!</h1>
+        <p class="fs-5 text-center mt-4 fw-medium" id="avalTitle1">Nota do Site</p>
+    
+        <div id="starsRadio">
+          <div class="star-rating d-flex justify-content-center">
+            <div class="star-rating__wrap mt-2">
+              <input class="star-rating__input" id="star-rating-5" type="radio" name="rating" value="5">
+              <label class="star-rating__ico fa fa-star-o fa-lg" for="star-rating-5" title="5 out of 5 stars"></label>
+              <input class="star-rating__input" id="star-rating-4" type="radio" name="rating" value="4">
+              <label class="star-rating__ico fa fa-star-o fa-lg" for="star-rating-4" title="4 out of 5 stars"></label>
+              <input class="star-rating__input" id="star-rating-3" type="radio" name="rating" value="3">
+              <label class="star-rating__ico fa fa-star-o fa-lg" for="star-rating-3" title="3 out of 5 stars"></label>
+              <input class="star-rating__input" id="star-rating-2" type="radio" name="rating" value="2">
+              <label class="star-rating__ico fa fa-star-o fa-lg" for="star-rating-2" title="2 out of 5 stars"></label>
+              <input class="star-rating__input" id="star-rating-1" type="radio" name="rating" value="1">
+              <label class="star-rating__ico fa fa-star-o fa-lg" for="star-rating-1" title="1 out of 5 stars"></label>
+            </div>
+          </div>
+        </div>
+          <div id="feedbackDiv">
+            <label id="cleiton" for="feedback" class="d-block fs-5 mb-3 mt-4 text-center fw-medium">Feedback</label>
+            <div class="d-flex justify-content-center">
+              <textarea name="feedback" id="feedback" rows="4" cols="50"></textarea>
+            </div>
+            <div class="d-flex justify-content-center">
+              <button id="avalBtn" class="mt-3">Enviar</button>
+            </div>
+          </div>
+      
+        <p id="result" class="fs-5 text-center mt-4"></p>
+      
+      </div>
+    <script src="../assets/js/sobreNos.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    <script src="../assets/js/dadosDev.js"></script>
+</body>
+</html>

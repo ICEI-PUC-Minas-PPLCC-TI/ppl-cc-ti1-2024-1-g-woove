@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Denúncias/Avaliações Passadas</title>
+    <link rel="stylesheet" href="/codigo/assets/css/styleLogCad.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="/codigo/assets/css/stylePrincipal.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+    </style>
+    <script src="https://kit.fontawesome.com/25359709ac.js" crossorigin="anonymous"></script>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f9f9f9;
+            height: 100vh; /* Garantir que a altura do corpo seja 100% da altura da visualização */
+        }
+
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: #fff;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            text-align: center; /* Centralizar texto */
+            min-height: 100vh; /* Garantir que o contêiner ocupe toda a altura da visualização */
+            box-sizing: border-box; /* Incluir padding e borda na altura total */
+            display: flex;
+            flex-direction: column;
+        }
+
+        .header {
+            display: flex;
+            align-items: center;
+            margin-bottom: 20px;
+        }
+
+        .header img {
+            width: 24px;
+            height: 24px;
+            margin-right: 10px;
+            cursor: pointer;
+        }
+
+        .header h1 {
+            font-size: 20px;
+            margin: 0;
+            color: #e83e8c; /* Mudança da cor do texto para rosa */
+        }
+
+        .profile-pic {
+            margin-left: auto;
+            width: 40px;
+            height: 40px;
+            border-radius: 50%;
+            background-color: #ccc;
+        }
+
+        .message {
+            margin-top: 50px;
+            font-size: 18px;
+            color: #333;
+            flex-grow: 1; /* Fazer a mensagem crescer para ocupar o espaço restante */
+        }
+    </style>
+</head>
+<header>
+    <div class="header">
+      <!-- barra de navegação começa aqui -->
+      <nav class="nav d-flex flex-column justify-content-between flex-sm-row m-3">
+              <a class="nav-link active text-center mb-2 mb-sm-0 mr-sm-3" style="text-decoration: none; color: white; background-color: #7C4690; border-radius: 5px; height: 100%;" href="/codigo/pages/index.html"><b>Woove</b></a>
+          <div class="d-flex flex-column flex-sm-row">
+              <a class="nav-link mb-2 mb-sm-0 mr-sm-3" style="text-decoration: none; color: white;" href="/codigo/pages/indexPerfil.html"><i class="bi bi-person-circle"></i><b>Perfil</b></a>  
+              <a class="nav-link mb-2 mb-sm-0 mr-sm-3" style="text-decoration: none; color: white;" href="/codigo/pages/PagCadastro.html"><i class="bi bi-pencil-square"></i><b>Cadastro</b></a>
+              <a class="nav-link mb-2 mb-sm-0 mr-sm-3" style="text-decoration: none; color: white;" href="/codigo/pages/index.html"><i class="bi bi-chat-left-text-fill"></i><b>Fórum</b></a>
+              <a class="nav-link mb-2 mb-sm-0 mr-sm-3" style="text-decoration: none; color: white;" href="/codigo/pages/Denuncias.html"><i class="fa-solid fa-triangle-exclamation"></i><b>Denúncias</b></a>
+              <a class="nav-link mb-2 mb-sm-0" style="text-decoration: none; color: white;" href="/codigo/pages/sobreNos.html"><i class="bi bi-info-circle"></i><b>Sobre nós</b></a>
+              
+          </div>
+      </nav>
+  </div>
+  </header>
+<body>
+    <div class="container">
+        <div class="header">
+            <img src="/codigo/assets/images/image.png" alt="Voltar">
+            <h1>Denúncias/Avaliações Passadas</h1>
+            <div class="profile-pic"></div>
+        </div>
+
+        <div class="message">
+            Ops! Parece que você ainda não fez nenhuma avaliação ou denúncia.
+        </div>
+    </div>
+</body>
+</html>

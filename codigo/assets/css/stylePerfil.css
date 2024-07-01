@@ -1,0 +1,374 @@
+body {
+    background-color: rgb(255, 255, 255);
+}
+
+.header {
+
+    background-color: #e83e8c;
+    padding: 10px 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+
+}
+
+/*.header .bi-person-circle {
+    font-size: 20px;
+    color: white;
+}*/
+
+.header .bi-highlights {
+    font-size: 20px;
+    padding-left: 15px;
+    cursor: pointer;
+    color: white;
+}
+
+
+.nav-link i {
+    margin-right: 8px;
+    color: #000000;
+}
+
+.header .bi-pencil-square,
+.header .bi-chat-left-text-fill,
+.header .bi-info-circle,
+.header .fa-solid {
+    color: white;
+}
+
+header h1 {
+    font-size: 24px;
+    color: #000000;
+    margin-top: 25px;
+    margin-bottom: 15px;
+}
+
+header hr {
+    border: none;
+    height: 1px;
+    background-color: #ccc;
+    margin: 10px 0;
+}
+
+.nav-link b {
+    color: white;
+}
+
+.perfil {
+    margin-top: 40px;
+    margin-right: 90px;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 10px 10px rgba(0, 0, 0, 0.1);
+    width: 400px;
+}
+
+.cadastro {
+    display: flex;
+}
+
+.foto,
+.perfil {
+    flex: 1;
+}
+
+.formato-perfil {
+    margin-bottom: 15px;
+    display: flex;
+    flex-direction: column;
+}
+
+.formato-perfil label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+    color: #333;
+}
+
+.formato-perfil input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+.foto {
+    margin-top: 50px;
+    margin-left: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+#foto-perfil {
+    color: #e83e8c;
+    font-size: 20px;
+    padding-bottom: 10px;
+    cursor: pointer;
+    margin-bottom: 10px;
+}
+
+#foto-perfil .bi-pencil {
+    margin-left: 20px;
+}
+
+
+#foto-preview {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    object-fit: cover;
+    object-position: center;
+    border: 2px solid #e83e8c;
+    transition: transform 0.3s, box-shadow 0.3s;
+    margin-bottom: 10px;
+}
+
+#foto-preview:hover {
+    transform: scale(1.05);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+#perfil-foto {
+    display: none;
+}
+
+
+#perfil-label {
+
+    color: #e83e8c;
+    font-size: 20px;
+    padding-bottom: 10px
+}
+
+#btnEditarNome {
+    background: none;
+    border: none;
+    padding: 0;
+    margin-right: 5px;
+    cursor: pointer;
+}
+
+#btnEditarNome .bi {
+    font-size: 16px;
+    color: #4A148C;
+    padding-left: 60px;
+}
+
+#btnEditarEmail {
+    background: none;
+    border: none;
+    margin-right: 5px;
+    cursor: pointer;
+    padding-top: 20px;
+}
+
+#btnEditarEmail .bi {
+    font-size: 16px;
+    color: #4A148C;
+    padding-left: 60px;
+}
+
+#btnEditarBiografia {
+    background: none;
+    border: none;
+    margin-right: 5px;
+    cursor: pointer;
+    padding-top: 20px;
+}
+
+#btnEditarBiografia .bi {
+    font-size: 16px;
+    color: #4A148C;
+    padding-left: 60px;
+}
+
+.historico h1 {
+    font-size: 27px;
+    color: #000000;
+    margin-top: 40px;
+    margin-bottom: 15px;
+}
+
+.historico hr {
+    border: none;
+    height: 1px;
+    background-color: #ccc;
+    margin: 10px 0;
+
+}
+
+.cartoes {
+    display: flex;
+    gap: 20px;
+    margin-top: 50px;
+    justify-content: center;
+}
+
+.cartao {
+    background-color: #f995c4;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    max-width: 300px;
+    text-align: center;
+    transition: transform 0.3s, box-shadow 0.3s;
+    margin-bottom: 20px;
+}
+
+.cartao:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+.cartao h3 {
+    margin-top: 0;
+}
+
+.cartao p {
+    color: #666;
+    padding: 12px;
+}
+
+.cartao hr {
+    border: 0;
+    height: 1px;
+    background: #ddd;
+    margin: 20px 0;
+}
+
+.opcao-btn {
+    background-color: #e83e8c;
+    color: white;
+    border: none;
+    border-radius: 20px;
+    padding: 10px 20px;
+    cursor: pointer;
+    margin: 10px;
+    display: inline-block;
+}
+
+.opcoes-transporte,
+.opcoes-preferencias {
+    display: none;
+    margin: 10px;
+}
+
+.opcoes-transporte label,
+.opcoes-preferencias label {
+    display: block;
+    margin: 5px 0;
+}
+
+
+body.dark-theme {
+    background-color: #121212;
+    color: #e0e0e0;
+}
+
+body.dark-theme .header {
+    background-color: #333;
+
+}
+
+body.dark-theme .bi.bi-person-circle,
+body.dark-theme .bi.bi-highlights,
+body.dark-theme .bi.bi-pencil-square,
+body.dark-theme .bi.bi-chat-left-text-fill,
+body.dark-theme .bi.bi-info-circle,
+body.dark-theme .nav-link b {
+    color: white;
+}
+
+
+
+body.dark-theme header hr,
+body.dark-theme .perfil,
+body.dark-theme .cartao,
+body.dark-theme .historico hr {
+    color: #e0e0e0;
+    background-color: #333;
+    border: none;
+}
+
+#btnLog_out {
+    background-color: #e83e8c;
+    color: white;
+    border: none;
+    border-radius: 20px;
+    padding: 10px 20px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+body.dark-theme #btnLog_out,
+body.dark-theme #btnTransporte,
+body.dark-theme #btnPreferencias {
+    background-color: #5a189a;
+}
+
+body.dark-theme #btnEditarNome .bi,
+body.dark-theme #btnEditarEmail .bi,
+body.dark-theme #btnEditarBiografia .bi,
+body.dark-theme #foto-perfil .bi {
+    color: white;
+}
+
+body.dark-theme header h1,
+body.dark-theme .historico h1,
+body.dark-theme .foto h3,
+body.dark-theme #opcao-btn {
+    color: #e83e8c;
+}
+
+body.dark-theme .formato-perfil input,
+body.dark-theme .formato-perfil textarea,
+body.dark-theme .cartao p {
+    background-color: #222;
+    color: #e0e0e0;
+    border: 1px solid #555;
+
+
+}
+
+body.dark-theme .cartao hr {
+    background-color: #555;
+}
+
+body.dark-theme #foto-preview {
+    border: 2px solid #333;
+}
+
+body.dark-theme .opcao-btn,
+body.dark-theme .perfil-label {
+    color: #f5f5f5;
+}
+
+
+body.dark-theme .opcoes-transporte,
+body.dark-theme .opcoes-preferencias {
+    color: #5a189a;
+}
+
+
+@media screen and (max-width: 1020px) {
+    .cadastro {
+        display: flex;
+        flex-direction: column;
+
+    }
+
+    .cartoes {
+        display: flex;
+        flex-direction: column;
+        align-items: normal;
+    }
+}
+
+#headerPerfil {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
