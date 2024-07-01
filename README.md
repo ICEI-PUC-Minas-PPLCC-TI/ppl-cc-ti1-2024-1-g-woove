@@ -17,4 +17,25 @@ O projeto Woove visa desenvolver um site dedicado a melhorar a segurança e a ex
 
 ## Instruções de utilização
 
-Assim que a primeira versão do sistema estiver disponível, deverá complementar com as instruções de utilização. Descreva como instalar eventuais dependências e como executar a aplicação.
+Pré-requisitos:
+Node.js: Certifique-se de ter o Node.js instalado em seu sistema.
+JSON Server: Um mock server para fornecer a API REST para dados de usuários e postagens.
+
+Passos para Configuração e Execução Local:
+
+1. Clone o Repositório do GitHub:
+git clone https://github.com/ICEI-PUC-Minas-PPLCC-TI/ti-1-ppl-cc-m-20241-3-woove.git
+cd ti-1-ppl-cc-m-20241-3-woove
+
+2. Instale as Dependências:
+npm install
+
+3. Inicie o JSON Server:
+npm json-server --watch server/db.json --port 5000
+Isso iniciará o JSON Server em http://localhost:5000.
+
+6. Abra o Arquivo HTML no Navegador:
+Feed: index.html
+
+Teste das Funcionalidades:
+Entre através do cabelhaço em cada pagina individual e visualize sua estetica e funcionalidades.
